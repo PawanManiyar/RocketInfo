@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginTop="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvRocketName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/black"
+            tools:text="Rocket Name" />
+
+        <HorizontalScrollView
+            android:id="@+id/HorizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/imgLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Status" />
+
+        <TextView
+            android:id="@+id/tvCostPerLaunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Cost per launch" />
+
+        <TextView
+            android:id="@+id/tvSuccessRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Success Rate" />
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            tools:text="Description" />
+
+        <TextView
+            android:id="@+id/tvWikiLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Wiki Link" />
+
+        <TextView
+            android:id="@+id/tvRocketHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Height" />
+
+
+        <TextView
+            android:id="@+id/tvRocketDiameter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Diameter" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

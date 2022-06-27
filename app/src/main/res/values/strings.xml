@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">RocketInfo</string>
+    <string name="cd_rocket_image">Rocket Image</string>
+
+    <string name="rockets">Rockets</string>
+    <string name="error">Error!</string>
+    <string name="future_launches"><b>Future Launches</b></string>
+    <string name="past_launches"><b>Past Launches</b></string>
+
+    <string name="status">Status: %s</string>
+    <string name="active">Active</string>
+    <string name="inactive">Not Active</string>
+    <string name="launch_success">Success</string>
+    <string name="launch_fail">Failed</string>
+
+    <!--Rockets-->
+    <string name="rocket_cost_per_launch">Cost Per Launch: $%s</string>
+    <string name="rocket_height">Height: %s meters (%s feet)</string>
+    <string name="rocket_diameter">Diameter: %s meters (%s feet)</string>
+    <string name="rocket_mass">Mass: %s kg (%s lb)</string>
+    <string name="rocket_stages">Stages: %s</string>
+    <string name="rocket_boosters">Boosters: %s</string>
+    <string name="rocket_first_flight">First Flight: %s</string>
+    <string name="rocket_success_rate">Success Rate: %s%%</string>
+    <string name="rocket_first_stage_info">First Stage:\n -Engines: %s\n -Fuel: %s tons\n -Burn Time: %s sec%s</string>
+    <string name="rocket_first_stage_reuseable">\n -Reusable</string>
+    <string name="rocket_second_stage_info">Second Stage:\n -Engines: %s\n -Burn Time: %s sec</string>
+    <string name="no_internet">Lost internet connection.</string>
+    <string name="no_internet_toast">No internet connection. Can\'t update data</string>
 </resources>
